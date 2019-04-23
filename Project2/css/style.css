@@ -167,6 +167,20 @@
 		text-align: right;
 	}
 
+/* Frames */
+
+.leftframe {
+   width: 75%;
+
+}
+.rightframe {
+   width: 18%;
+
+}
+.leftframe, .rightframe {
+    min-height: calc(100vh - 50px);
+}
+
 /* Section/Article */
 
 	section.special, article.special {
